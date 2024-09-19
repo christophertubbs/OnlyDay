@@ -1,7 +1,7 @@
 # OnlyDay
 Python library that introduces a Day datatype that is universal across every year.
 
-A day representing November 3rd will represent the same year-less day across every year. A Day object representing
+A day representing November 3rd will represent the same year-less day across every year. A `Day` object representing
 November 3rd is valid for both 2020-11-03 and 2022-11-03.
 
 

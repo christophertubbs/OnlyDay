@@ -426,4 +426,4 @@ class Day:
         return self.to_datetime() - date_value_to_datetime(other)
 
     def __hash__(self):
-        return hash(self.__repr__())
+        return hash(self.__day)

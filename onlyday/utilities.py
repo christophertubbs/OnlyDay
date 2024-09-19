@@ -152,7 +152,7 @@ def month_and_day_are_valid(month_number: typing.Union[int, str, float], day_of_
         raise ValueError(f"The only valid month numbers are from 1-12. Received {month_number}")
 
 
-def day_month_sequence_is_valid(day_month_sequence: typing.Sequence[int, float, str]):
+def day_month_sequence_is_valid(day_month_sequence: typing.Sequence[typing.Union[int, float, str]]):
     valid_value_types = (int, float, str)
 
     if not is_sequence_type(day_month_sequence):
